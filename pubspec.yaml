@@ -32,6 +32,12 @@ dependencies:
   flutter:
     sdk: flutter
   kakao_flutter_sdk: ^0.6.1
+  carousel_slider:
+  flutter_linkify:
+  url_launcher:
+  http: any
+  html: any
+  logger: ^1.1.0
 
 
   # The following adds the Cupertino Icons font to your application.
