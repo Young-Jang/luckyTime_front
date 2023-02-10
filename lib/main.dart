@@ -41,20 +41,20 @@ class _KakaoLoginPageState extends State<KakaoLoginPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            SizedBox(
-              width: MediaQuery.of(context).size.width,
-              child: CupertinoButton(
-                onPressed: _loginButtonPressed,
-                color: Colors.yellow,
-                child: Text(
-                  '카카오 로그인',
-                  style: TextStyle(
-                    fontSize: 15,
-                    color: Colors.black87,
-                  ),
-                ),
-              ),
-            ),
+            // SizedBox(
+            //   width: MediaQuery.of(context).size.width,
+            //   child: CupertinoButton(
+            //     onPressed: _loginButtonPressed,
+            //     color: Colors.yellow,
+            //     child: Text(
+            //       '카카오 로그인',
+            //       style: TextStyle(
+            //         fontSize: 15,
+            //         color: Colors.black87,
+            //       ),
+            //     ),
+            //   ),
+            // ),
             Flexible(
               child: TextField(
                 controller: _textController,
